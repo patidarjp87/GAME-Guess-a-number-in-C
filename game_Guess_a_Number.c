@@ -6,6 +6,7 @@ int main()
     int number,guess,no_of_attempts=1;
     srand(time(0));
     number=rand()%300 +2;//Generates a random number between 2 and 300
+    printf("****Welcome to Guess a Number game****\n");
     do{
         printf("Guess the number between 2 to 300\n");
         scanf("%d",&guess);
